@@ -35,6 +35,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)
+%doc AUTHORS COPYING README NEWS INSTALL ChangeLog
 %{_bindir}/createf4tbar
 %{_bindir}/createmmap
 %{_bindir}/createtestbench
