@@ -11,7 +11,7 @@ License: GPL
 Group: Development/Other
 Url: http://sourceforge.net/projects/fsmdesigner/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires: qt4-devel, xerces-c-devel, python-devel, swig-devel
+BuildRequires: qt4-devel, xerces-c-devel, python-devel, swig-devel, mlocate
 
 %description
 FSMDesigner4 is a C++ based implementation for a Finite State Machine (FSM)
