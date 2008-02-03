@@ -7,6 +7,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: %{name}-%{version}.tar.bz2
+Patch0: %{name}-locate.patch
 License: GPL
 Group: Development/Other
 Url: http://sourceforge.net/projects/fsmdesigner/
@@ -21,6 +22,7 @@ complex control circuits.
 
 %prep
 %setup -q
+%patch0 -p0
 
 %build
 %configure --with-xerces-lib="-lxerces-c"
