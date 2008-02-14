@@ -2,7 +2,7 @@
 %define version 1.1
 %define release %mkrel 1
 
-Summary: a Finite State Machine (FSM) design tool
+Summary: A Finite State Machine (FSM) design tool
 Name: %{name}
 Version: %{version}
 Release: %{release}
