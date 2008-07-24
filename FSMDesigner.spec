@@ -1,6 +1,6 @@
 %define name FSMDesigner4
 %define version 1.1
-%define release %mkrel 1
+%define release %mkrel 3
 
 Summary: A Finite State Machine (FSM) design tool
 Name: %{name}
