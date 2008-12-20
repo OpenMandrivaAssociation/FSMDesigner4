@@ -23,6 +23,8 @@ BuildRequires:	qt4-devel
 BuildRequires:	xerces-c-devel
 BuildRequires:	swig
 BuildRequires:	python-devel
+# Autoconf definitions for xerces live here - AdamW 2008/12
+BuildRequires:	autoconf-archive
 
 %description
 FSMDesigner4 is a C++ based implementation for a Finite State Machine (FSM)
