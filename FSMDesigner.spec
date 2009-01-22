@@ -1,7 +1,7 @@
 Summary:	A Finite State Machine (FSM) design tool
 Name:		FSMDesigner4
 Version:	1.2
-Release:	%{mkrel 1}
+Release:	%{mkrel 2}
 Source0:	http://downloads.sourceforge.net/fsmdesigner/%{name}-%{version}.tar.gz
 # Don't check for locate, it doesn't use it - AdamW 2008/12
 Patch0:		FSMDesigner4-1.2-locate.patch
