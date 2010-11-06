@@ -13,6 +13,7 @@ BuildRequires:	xerces-c-devel
 BuildRequires:	python-devel
 BuildRequires:	mlocate
 BuildRequires:	swig
+BuildRequires:	autoconf-archive
 
 %description
 FSMDesigner4 is a C++ based implementation for a Finite State Machine (FSM)
