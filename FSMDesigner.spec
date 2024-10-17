@@ -6,7 +6,7 @@ Source0:	http://downloads.sourceforge.net/fsmdesigner/%{name}-%{version}.tar.gz
 Patch10:	FSMDesigner4-4.2-link.patch
 License:	GPLv2+
 Group:		Development/Other
-URL:		http://sourceforge.net/projects/fsmdesigner/
+URL:		https://sourceforge.net/projects/fsmdesigner/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	qt4-devel
 BuildRequires:	xerces-c-devel
