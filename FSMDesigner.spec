@@ -8,6 +8,10 @@ License:	GPLv2+
 Group:		Development/Other
 URL:		https://sourceforge.net/projects/fsmdesigner/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	qt4-devel
 BuildRequires:	xerces-c-devel
 BuildRequires:	python-devel
